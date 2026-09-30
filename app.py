@@ -7,7 +7,7 @@ load_dotenv()
 
 api_key=os.getenv("GEMINI_API_KEY")
 
-client=genai.Client(api_key)
+client=genai.Client(api_key=api_key)
 
 st.set_page_config(
     page_title="GEMINI AI CHATBOT ",
