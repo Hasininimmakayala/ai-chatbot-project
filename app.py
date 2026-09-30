@@ -24,7 +24,7 @@ prompt=st.text_area(
     placeholder="Explain Artificial Intelligence in simple words...."
 )
 
-if st.botton("Generate Response"):
+if st.button("Generate Response"):
 
     if prompt:
         with st.spinner("Gemini is thinking..." ):
